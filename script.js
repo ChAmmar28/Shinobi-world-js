@@ -256,3 +256,4 @@ function cardGener(arr) {
 }
 
 $container.insertAdjacentHTML("afterbegin", cardGener(shinobiWorld));
+// ddd
