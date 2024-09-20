@@ -1,38 +1,3 @@
-// const text = document.querySelector(".someText");
-
-// // let word = prompt("write sth");
-
-// // text.innerHTML = word;
-
-// let fromUser = prompt("text");
-
-// let newText = `<span class="adil"> ${fromUser} </span>`;
-
-// text.insertAdjacentHTML("beforebegin", newText);  новый текст => HTML
-
-// 'beforebegin' : до самого элемента (до открывающего тега)
-
-// 'afterbegin' : после открывающего тега ( в начале )
-
-// 'beforeend' :  перед закрывающим тегом ( в конце )
-
-// 'afterend ': после самого элемента (после закрывающего тега)
-
-//
-
-// const someText = document.querySelector(".someText");
-
-// const arrOfGroup = ["Ammar", "Sultan", "Elaman", "Alihan", "Dilbar", "Sarynji"];
-
-// function cardGener(arr) {
-//   const res = arr.map((item) => `<span class="adil"> ${item} </span>`).join("");
-//   return res;
-// }
-
-// someText.insertAdjacentHTML("afterbegin", cardGener(arrOfGroup));
-
-//
-
 let shinobiWorld = [
   {
     name: "Naruto",
@@ -256,4 +221,3 @@ function cardGener(arr) {
 }
 
 $container.insertAdjacentHTML("afterbegin", cardGener(shinobiWorld));
-// ddd
